@@ -4,6 +4,7 @@ import java.util.Arrays;
 public class Card {
     private int rows = 3, columns = 9, countOfEmptyFields = 4;
     private int[][] fields;
+    //жопа
 
     public Card() {
         fields = createFields();
